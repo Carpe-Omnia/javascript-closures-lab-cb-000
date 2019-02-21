@@ -17,6 +17,6 @@ function createAnimal(animalType) {
   return combine
 }
 
-var sharkMaker = createAnimal('Shark')
+var sharkCreator = createAnimal('Shark')
 var sharkWithFrickinLaserbeam = sharkMaker('Laserbeam')
 var sharkWithFrickinCannon = sharkMaker('Cannon')
