@@ -1,5 +1,5 @@
 const app = "I don't do much."
-function bumbCounter() {
+function bumpCounter() {
   var counter = 0 ;
   function addBump() {
     counter += 1
@@ -9,7 +9,7 @@ function bumbCounter() {
   }
   return {addBump, getBumps}
 }
-
+var {addBump, getBumps} =   bumpCounter() 
 function createAnimal(animalType) {
   function combine(deadlyDevice) {
     return{'animalType': animalType, 'deadlyDevice': deadlyDevice}
