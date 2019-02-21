@@ -9,7 +9,7 @@ function bumpCounter() {
   }
   return {addBump, getBumps}
 }
-var {addBump, getBumps} =   bumpCounter()
+/* var {addBump, getBumps} =   bumpCounter() */
 function createAnimal(animalType) {
   function combine(deadlyDevice) {
     return{'animalType': animalType, 'deadlyDevice': deadlyDevice}
